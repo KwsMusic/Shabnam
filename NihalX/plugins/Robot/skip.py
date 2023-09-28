@@ -4,15 +4,15 @@ from pyrogram.types import InlineKeyboardMarkup, Message
 import config
 from config import BANNED_USERS
 from strings import get_command
-from NihalX import YouTube, app
-from NihalX.core.call import Nihal
-from NihalX.misc import db
-from NihalX.utils.database import get_loop
-from NihalX.utils.decorators import AdminRightsCheck
-from NihalX.utils.inline.play import (stream_markup,
+from Music import YouTube, app
+from Music.core.call import Nihal
+from Ashish.misc import db
+from Music.utils.database import get_loop
+from Music.utils.decorators import AdminRightsCheck
+from Music.utils.inline.play import (stream_markup,
                                           telegram_markup)
-from NihalX.utils.stream.autoclear import auto_clean
-from NihalX.utils.thumbnails import gen_thumb
+from Music.utils.stream.autoclear import auto_clean
+from Music.utils.thumbnails import gen_thumb
 
 # Commands
 SKIP_COMMAND = get_command("SKIP_COMMAND")
