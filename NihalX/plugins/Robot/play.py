@@ -12,19 +12,19 @@ from config import BANNED_USERS, lyrical
 from strings import get_command
 from NihalX import (Apple, Resso, SoundCloud, Spotify, Telegram,
                         YouTube, app)
-from NihalX.core.call import Nihal
-from NihalX.utils import seconds_to_min, time_to_seconds
-from NihalX.utils.channelplay import get_channeplayCB
-from NihalX.utils.database import is_video_allowed
-from NihalX.utils.decorators.language import languageCB
-from NihalX.utils.decorators.play import PlayWrapper
-from NihalX.utils.formatters import formats
-from NihalX.utils.inline.play import (livestream_markup,
+from Music.core.call import Nihal
+from Music.utils import seconds_to_min, time_to_seconds
+from Music.utils.channelplay import get_channeplayCB
+from Music.utils.database import is_video_allowed
+from Music.utils.decorators.language import languageCB
+from Music.utils.decorators.play import PlayWrapper
+from Music.utils.formatters import formats
+from Music.utils.inline.play import (livestream_markup,
                                           playlist_markup,
                                           slider_markup, track_markup)
-from NihalX.utils.inline.playlist import botplaylist_markup
-from NihalX.utils.logger import play_logs
-from NihalX.utils.stream.stream import stream
+from Music.utils.inline.playlist import botplaylist_markup
+from Music.utils.logger import play_logs
+from Music.utils.stream.stream import stream
 
 # Command
 PLAY_COMMAND = get_command("PLAY_COMMAND")
