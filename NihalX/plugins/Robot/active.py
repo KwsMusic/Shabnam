@@ -2,9 +2,9 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from strings import get_command
-from NihalX import app
-from NihalX.misc import SUDOERS
-from NihalX.utils.database.memorydatabase import (
+from Asʜɪsʜ import app
+from Asʜɪsʜ.misc import SUDOERS
+from Asʜɪsʜ.utils.database.memorydatabase import (
     get_active_chats, get_active_video_chats)
 
 # Commands
